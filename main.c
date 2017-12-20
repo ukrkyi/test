@@ -1,6 +1,9 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
-	printf("42\n");
+	int a, b;
+	scanf ("%d%d", &a, &b);
+	printf("%d\n", a+b);
 	return 0;
 }
